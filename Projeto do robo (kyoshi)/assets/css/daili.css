@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:transparent;
+    padding: 18px;
+    text-align: center;
+}
+
+header li {
+    display: inline-block;
+    margin: 0px 15px;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #084808;
+    border-radius: 1000px;
+    border: 15px solid transparent;
+    transition: 0.7s;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.091);
+
+}
+
+nav img {
+    width: 110px;
+    height: 90px;
+    transition: (0.10s);
+}
+
+nav img:hover {
+    filter: grayscale(1);
+}

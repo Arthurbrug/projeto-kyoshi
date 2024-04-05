@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header {
+    background-color:transparent;
+    padding: 1.8rem;
+    text-align: center;
+}
+
+header li {
+    display: inline-block;
+    margin: 0px 2rem;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #084808;
+    border: 15px solid transparent;
+    border-radius: 1000px;
+    transition: (0.7s);
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.091);
+}
+
+nav ul {
+    margin-right: 4rem;
+}
+
+nav img {
+    width: 10rem;
+    height: 80%;
+    transition: (0.7s);
+    border: 3px solid #084808;
+    border-radius: 40px;
+    margin-left: 3rem;
+}
+
+nav img:hover {
+    filter: grayscale(1);
+    border-color: #ccc;
+}
+
+
+.robocup-container {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+
+.robocup-text {
+    flex: 1;
+    padding: 0 20px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.robocup-text h1{
+    padding-bottom: 15px;
+}
+
+.robocup-image {
+    flex: 1;
+    text-align: center;
+}
+.robocup-image img {
+    width: 77%;
+    height: 40rem;
+    border-radius: 4px;
+    box-shadow: 1px 2px 30px #ccc;
+    flex-wrap: wrap;
+}
+
+
+.kyoshi-container{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+
+.kyoshi-text {
+    flex: 1;
+    padding: 0 2rem;
+    margin-left: 3rem;
+    font-size: 2.5rem;
+}
+.kyoshi-image{
+    text-align: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.kyoshi-text h2 {
+    color: #084808;
+}
+.kyoshi-text h3 {
+    color: crimson;
+    padding-bottom: 15px;
+}
+
+.kyoshi-image img{
+    max-width: 80%;
+    width: auto;
+    height: 40rem;
+    border-radius: 4px;
+    box-shadow: 1px 2px 30px #ccc;
+}
+
+.final {
+    position:relative;
+    margin: 7rem auto 0px auto;
+    background-color: #084808d3;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.final h2 {
+    margin-top: 10px;
+    padding: 1rem;
+}
+
+.icon {
+    font-size: 3rem;
+    text-align: center;
+    color: #ffffff;
+    padding: 1rem;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
+.icon:hover {
+    background-color: #ffffff;
+    color: #084808;
+    border-color: transparent;
+}
